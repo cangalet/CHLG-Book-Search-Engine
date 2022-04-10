@@ -7,6 +7,8 @@ export const LOGIN_USER = gql`
         user {
             _id
             username
+            email
+            bookCount
         }
         }
     }
@@ -19,6 +21,7 @@ export const ADD_USER = gql`
         user {
             _id
             username
+            email
         }
         }
     }
